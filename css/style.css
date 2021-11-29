@@ -17,7 +17,6 @@ header {
     box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
 
-
 nav {
     display: flex;
     flex-direction: row;
@@ -27,4 +26,37 @@ nav {
 .nav-ln {
     margin: 5px;
     text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+section.about-me {
+    margin: 20px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+#matrix {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    max-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+section.projects {
+    margin: 20px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
