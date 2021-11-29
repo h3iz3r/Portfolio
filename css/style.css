@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+    height: 70px;
+    align-items: center;
+    font-size: 26px;
+    font-weight: revert;
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-ln {
+    margin: 5px;
+    text-decoration: none;
+}
