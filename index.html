@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
-
 <body>
     <header>
-        <p class="header-text">@h3iz3r</p>
+        <a href="https://github.com/h3iz3r/" class="header-text">@h3iz3r</a>
         <nav>
-            <a href="#" class="nav-ln">Home</a>
-            <a href="#" class="nav-ln">Projects</a>
+            <a href="#about-me" class="nav-ln">About me</a>
+            <a href="#projects" class="nav-ln">Projects</a>
             <a href="#" class="nav-ln">Skills</a>
             <a href="#" class="nav-ln">Contact</a>
         </nav>
     </header>
     <main>
-        <section class="about-me">
-            <h3>About me</h3>
+        <section class="about-me" id="about-me">
+            <h2>About me</h2>
             <br>
             <article>
                 Hi! I'm Ada, Countess of Lovelace and am an English mathematician and writer, chiefly known for my work
@@ -39,11 +37,34 @@
                 Fun fact! I've been programing for NaN seconds!
             </article>
         </section>
-        <img src="/img/matrix.png" alt="Matrix signs" id="matrix">
-        <section class="projects">
-
+        <img src="./img/matrix.png" alt="Matrix signs" id="matrix">
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <br>
+            <details class="project-details">
+                <summary class="project-summary">
+                    Python brass and stock analyzer
+                </summary>
+                <img src="./img/korrelationen.png" alt="Correlation" id="correlation">
+                <p>
+                    My work inspired the United States Department of Defense to name
+                    their new programming language after me.
+                </p>
+            </details>
+            <details class="project-details">
+                <summary class="project-summary">
+                    Teashop-Project from Codecademy
+                </summary>
+                <img src="./img/teashop.png" alt="Teashop" id="teashop">
+                <p>
+                    Build a webpage for a neat Teashop. I was using HTML, CSS and Git. I was working with the phpStorm
+                    IDE (Jetbrains).
+                </p>
+            </details>
         </section>
     </main>
 </body>
-
+<footer>
+    Made with <span class="heart"> ♥ </span> in Elzach, Germany
+</footer>
 </html>
